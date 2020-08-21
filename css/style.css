@@ -65,12 +65,6 @@ tr:hover{
 a.title:hover{
     color:var(--main-color) !important;
 }
-footer{
-    background-color: var(--secondary);
-}
-.footer-copyright{
-    background-color: #fff;
-}
 .btn-width{
     display: block;
     min-width:200px !important;
