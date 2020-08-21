@@ -1,0 +1,80 @@
+:root {
+    --main-color:#11156d;
+    --secondary: #f2f1ed;
+}
+.btn{
+    background-color: var(--main-color) !important;
+}
+.btn:hover{
+    background-color: var(--secondary) !important;
+}
+.btn:hover i{
+    color:var(--main-color);
+}
+.btn i{
+    color:white;
+}
+a{
+    color: var(--main-color);
+}
+p{
+    color:var(--main-color);
+}
+span i{
+    color: var(--main-color);
+}
+
+li a:hover{
+    color:var(--main-color);
+    background-color: var(--secondary);
+}
+
+div i:hover{
+    color:var(--main-color);
+}
+.btn:hover{
+    color:var(--main-color) !important;
+    border: 2px solid var(--main-color);
+}
+.btn-sm{
+    color:white !important;
+}
+
+.custom-control-input:checked ~ .custom-control-label::before {
+    background-color: var(--main-color) !important;
+}
+a.active{
+    background-color: #f2f1ed !important;
+}
+
+a div i{
+    color:var(--main-color) !important;
+}
+a:hover div i{
+    background-color: #fff;
+}
+.btn-group a.active i{
+    color:var(--main-color);
+}
+thead{
+    background-color: var(--secondary);
+}
+tr:hover{
+    background-color:var(--secondary) ;
+}
+a.title:hover{
+    color:var(--main-color) !important;
+}
+footer{
+    background-color: var(--secondary);
+}
+.footer-copyright{
+    background-color: #fff;
+}
+.btn-width{
+    display: block;
+    min-width:200px !important;
+    max-width: 210px;
+    margin: 5px auto;
+    padding: 10px 20px;
+}
